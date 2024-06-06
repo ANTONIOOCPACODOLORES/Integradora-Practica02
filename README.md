@@ -17,3 +17,12 @@
 ##### Encabezado de Nivel 5 - Similar a H5 en HTML 
 ###### Encabezado de Nivel 6 - Similar a H6 en HTML 
 ####### Encabezado de Nivel 7 - Solo 6 son los niveles permitidos, a partir de este el maquetado será ignorado.
+
+### 2. Separadores (SEPARATORS)
+<p align="justify">Si desea marcar una separación más visual de contenidos pordemos utilizarlos indicando tres caracteres de "-" continuos, en el maquetado.</p>
+
+**EJEMPLO:** 
+
+Texto sección
+---
+Después del separador. 
