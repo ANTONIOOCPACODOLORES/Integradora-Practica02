@@ -152,6 +152,89 @@ Documentación creada por: **Antonio Ocpaco Dolores**
 <230642@utxicotepec.edu.mx> 
 http://www.utxicotepec.edu.mx
 
+#### 8. Tablas (Tables)
+
+Si la documentacon lo requiere podemos presetar información en formato de tablas con filas y columnas, para maquetarlas podemos utilizar el carácter \(PIPEPIPE) para delifitar las columnas y \-para delimitar las filas.
+
+**EJEMPLO:** 
+| Encabezado 1 | encabezado 2 | Encabezado 3 | Encabezado 4|
+|-----------------------------------------------------------|
+|Fila 1 celda 1| Fila 1 celda 2| Fila 1 celda 3 | Fila 1 celda 4|
+|Fila 2 celda 1| Fila 2 celda 2| Fila 2 celda 3 | Fila 2 celda 4|
+|Fila 3 celda 1| Fila 3 celda 2| Fila 3 celda 3 | Fila 3 celda 4|
+
+En caso de necesitar la función de celdas en columnas utlizaremos la propiedad "colpson" del tag \<td> y en el caso de necesitar la fusión de filas utlizaremos la propiedad
+
+**EJEMPLO:**
+| Encabezado 1 | Encabezado  2 |  Encabezado  3 | Encabezado  4 |
+|--------------|---------------|----------------|---------------|
+|Fila 1 celda 1| Fila 1 celda 2| Fila 1 celda 3 | Fila 1 celda 4|
+|Fila 2 celda 1<td> colspon=2  | Fila 2 celda 2| Fila 2 celda 3 | Fila 2 celda 4|
+|Fila 3 celda 1| Fila 3 celda 2| Fila 3 celda 3 | Fila 3 celda 4|
+|              | Fila 4 celda 2| Fila 4 celda 3 | Fila 4 celda 4|
+|              | Fila 5 celda 2| Fila 5 celda 3 | Fila 5 celda 4|
+|Fila 5 celda 1| Fila 6 celda 2| Fila 6 celda 3 | Fila 6 celda 4|
+
+Dado que el ejemplo pasado usando markdown no se puede realizar la fusión de filas debemos utilizar el estándar de HTML, usando los tags: \<th> para los encabezados, \<tr> para las filas y \<td> para las celdas, y en ellos poder utilizar la propiedad de "colspan" y "rowspan".
+ 
+**EJEMPLO:**
+
+<table>
+<tr>
+<th>Encabezado1</th>
+<th>Encabezado2</th>
+<th>Encabezado3</th>
+</tr>
+
+<tr>
+<td>Fila 1 encabezado celda 1 </td>
+<td>Fila 1 encabezado celda 2 </td>
+<td>Fila 1 encabezado celda 3 </td>
+<td>Fila 1 encabezado celda 4 </td>
+</tr>
+
+<tr>
+<tr> Fila 2 celda 1</td>
+<td colspan=3 align="center"> Fila 2 celda 2</td>
+</tr>
+
+<tr>
+<td rowspan=3>Fila 3 celda 1</td>
+<td> Fila 3 celda 2</td>
+<td> Fila 3 celda 3</td>
+<td> Fila 3 celda 4</td> 
+</tr>
+
+<tr>
+<td>Fila 4 celda 2</td>
+<td>Fila 4 celda 3</td>
+<td>Fila 4 celda 4</td>
+</tr>
+
+<tr>
+<td>Fila 5 celda 2</td>
+<td>Fila 5 celda 3</td>
+<td>Fila 5 celda 4</td>
+</tr>
+
+<tr>
+<td>Fila 6 celda 1</td>
+<td>Fila 6 celda 2</td>
+<td>Fila 6 celda 3</td>
+<td>Fila 6 celda 4</td>
+</tr>
+
+</table>
+
+
+#### 9. Imágenes
+comming(Bajo el apartado 8 se incorpora nueva información con el nombre de "Imagenes".)
+
+Si la documentación requiere de implementar imágenes, esquemas, modelos, fotografías, o cualquier representación grafica utilizaremos la estructura de la liga maquetando el nombre de la imagen entre corchetes con un signo de admiración de cierre y la liga de referencia a la imagen usando paréntesis.
+
+**EJEMPLO:**
+
+
 
 
 
