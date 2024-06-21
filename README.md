@@ -233,6 +233,7 @@ comming(Bajo el apartado 8 se incorpora nueva información con el nombre de "Ima
 Si la documentación requiere de implementar imágenes, esquemas, modelos, fotografías, o cualquier representación grafica utilizaremos la estructura de la liga maquetando el nombre de la imagen entre corchetes con un signo de admiración de cierre y la liga de referencia a la imagen usando paréntesis.
 
 **EJEMPLO:**
+![Trabajo sobre programación](https://github.com/ANTONIOOCPACODOLORES/Integradora-Practica02/blob/main/Digital-Designer.jpg)
 
 
 
